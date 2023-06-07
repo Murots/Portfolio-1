@@ -67,12 +67,26 @@ main {
     border-radius: 10px;
     box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.285);
     max-width: 550px;
+    transition: transform 0.2s ease-in-out; 
+}
+  
+.card-container:hover {
+    transform: scale(1.05); 
 }
 
 .card-container img {
     border-radius: 10px 10px 0px 0px;
     padding: 12% 20% 0px 20px;
     box-sizing: border-box;
+    transition: filter 0.1s ease-in-out;
+}
+
+.card-container img:hover {
+    filter: brightness(110%); 
+}
+
+.card-container img:active {
+    filter: brightness(85%); 
 }
 
 .card-container1 img {
@@ -95,6 +109,10 @@ main {
 .card-container a {
     text-decoration: none;
     font-weight: 600;
+}
+
+.card-container a:hover {
+    text-decoration: underline;
 }
 
 .card-container1 a {
