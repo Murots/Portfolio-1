@@ -82,7 +82,7 @@ main {
 }
 
 .card-container img:hover {
-    filter: brightness(110%); 
+    filter: brightness(115%); 
 }
 
 .card-container img:active {
@@ -126,3 +126,14 @@ main {
 .card-container3 a {
     color: #248558;
 }
+
+footer {
+    height: 50px;
+    display: flex;
+    align-items: center;
+     justify-content: center;
+}
+
+footer div {
+    text-align: center;
+  }
